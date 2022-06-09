@@ -51,7 +51,8 @@ body{
     font-size: 20px;
     border-radius: 10px;
     height: 2rem;
-    text-align: center;    
+    text-align: center;
+    display: none;
 }
 #codemergencia{
     width: 60%;
@@ -60,7 +61,7 @@ body{
     border-radius: 10px;
     height: 2rem;
     text-align: center;
-    
+    display: none;
 }
 #btn{
     width: 70%;
