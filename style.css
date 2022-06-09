@@ -5,7 +5,7 @@ body{
 }
 
 .tela{
-    width: 60%;
+    width: 50%;
     height: 60vh;
     background: #fff;
     border-radius: 20px;
@@ -17,19 +17,24 @@ body{
     transform: translate(-50%,-50%);
     justify-content:space-between;
 }
-
+@media(max-width:800px){
+    .tela{
+        width: 80%;
+    }
+}
 
 #titulo{
     color: blue;
     text-align: center;
 }
 #ncadastro{
-    width: 60%;
+    width: 30%;
     margin: 0rem 2rem;
     font-size: 20px;
     border:1px solid blue;
     border-radius: 10px;
     height: 2rem;
+    letter-spacing: 5px;
 }
 .cadastro{
     display: flex;
@@ -38,7 +43,6 @@ body{
     margin-top: 3rem;
     align-items: center;
     gap: 20px;
-    
 }  
 .cadastro label{
     color: blue;
@@ -65,7 +69,7 @@ body{
 #btn{
     background: red;
     color: white;
-    width: 60%;
+    width: 30%;
     height: 60px;
     border-radius: 15px;
 }
