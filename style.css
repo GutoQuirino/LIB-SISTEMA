@@ -69,10 +69,6 @@ body{
     background: red;
     border-radius: 15px;
     padding: 2rem;
-    position: absolute;
-    left: 50%;
-    bottom: 3%;
-    transform: translate(-50%,-3%);
     cursor: pointer;
     font-size: 20px;
     display: flex;
