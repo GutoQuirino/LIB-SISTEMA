@@ -49,18 +49,17 @@ body{
     width: 60%;
     margin: 0rem 2rem;
     font-size: 20px;
-    border:1px solid blue;
     border-radius: 10px;
     height: 2rem;
-    
+    text-align: center;    
 }
 #codemergencia{
     width: 60%;
     margin: 0rem 2rem;
     font-size: 20px;
-    border:1px solid blue;
     border-radius: 10px;
     height: 2rem;
+    text-align: center;
     
 }
 #btn{
@@ -79,4 +78,5 @@ body{
     display: flex;
     align-items: center;
     margin: auto;
+    justify-content: center;
 }
