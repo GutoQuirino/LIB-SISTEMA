@@ -44,6 +44,7 @@ body{
     position: relative;
     color: blue;
     margin: auto;
+    display: none;
 }  
 #codrenova{
     width: 60%;
