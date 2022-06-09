@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: rgba(214, 212, 212, 0.904);
+}
+
+.tela{
+    width: 60%;
+    height: 60vh;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px rgb(2, 47, 196);
+    margin: auto;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    justify-content:space-between;
+}
+
+
+#titulo{
+    color: blue;
+    text-align: center;
+}
+#ncadastro{
+    width: 60%;
+    margin: 0rem 2rem;
+    font-size: 20px;
+    border:1px solid blue;
+    border-radius: 10px;
+    height: 2rem;
+}
+.cadastro{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 3rem;
+    align-items: center;
+    gap: 10px;
+    
+}  
+.cadastro label{
+    position: relative;
+    color: blue;
+    margin: auto;
+}  
+#codrenova{
+    width: 60%;
+    margin: 0rem 2rem;
+    font-size: 20px;
+    border:1px solid blue;
+    border-radius: 10px;
+    height: 2rem;
+    
+}
+#codemergencia{
+    width: 60%;
+    margin: 0rem 2rem;
+    font-size: 20px;
+    border:1px solid blue;
+    border-radius: 10px;
+    height: 2rem;
+    
+}
+#btn{
+    width: 70%;
+    height: 60px;
+    color:#fff;
+    background: red;
+    border-radius: 15px;
+    padding: 2rem;
+    position: absolute;
+    left: 50%;
+    bottom: 3%;
+    transform: translate(-50%,-3%);
+    cursor: pointer;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
