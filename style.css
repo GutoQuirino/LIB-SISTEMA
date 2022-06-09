@@ -37,14 +37,12 @@ body{
     justify-content: space-between;
     margin-top: 3rem;
     align-items: center;
-    gap: 10px;
+    gap: 20px;
     
 }  
 .cadastro label{
-    position: relative;
     color: blue;
     margin: auto;
-    display: none;
 }  
 #codrenova{
     width: 60%;
@@ -65,16 +63,10 @@ body{
     display: none;
 }
 #btn{
-    width: 70%;
-    height: 60px;
-    color:#fff;
     background: red;
+    color: white;
+    width: 60%;
+    height: 60px;
     border-radius: 15px;
-    padding: 2rem;
-    cursor: pointer;
-    font-size: 20px;
-    display: flex;
-    align-items: center;
-    margin: auto;
-    justify-content: center;
 }
+
