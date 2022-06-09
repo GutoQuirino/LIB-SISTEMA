@@ -55,7 +55,6 @@ body{
     border-radius: 10px;
     height: 2rem;
     text-align: center;
-    display: none;
 }
 #codemergencia{
     width: 60%;
@@ -64,7 +63,6 @@ body{
     border-radius: 10px;
     height: 2rem;
     text-align: center;
-    display: none;
 }
 #btn{
     background: red;
@@ -72,5 +70,7 @@ body{
     width: 30%;
     height: 60px;
     border-radius: 15px;
+    border: none;
+    box-shadow: 2px 2px 3px rgb(110, 2, 2);
 }
 
