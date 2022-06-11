@@ -1,13 +1,21 @@
+var d = new Date();
+var ano = d.getFullYear();
+var mes = d.getMonth();
+var dia = d.getDate();
+var somaAno = (ano - 1900)*365;
+var bisexto = (ano - 1900)/4;
+var somaMes = (mes)*30; 
+var result =(somaAno + somaMes + dia + bisexto)+ 2;
+var codDia = result.toFixed(0);
+var codVariacao = document.getElementById('codDiario').innerHTML = "Codigo Diario:"+codDia;
+
+
 function geraCodigo(){
-    let d = new Date();
-    let ano = d.getFullYear();
-    let mes = d.getMonth();
-    let dia = d.getDate();
-    let somaAno = (ano - 1900)*365;
-    let bisexto = (ano - 1900)/4;
-    let somaMes = (mes)*30; // verificar se é 0 ou 1
-    let result = number(somaAno + somaMes + dia + bisexto)+ 2;
     let chCadastro = document.querySelector('#ncadastro').value;
-    let inicio = chCadastro.substr(0,2);
-    let final = chCadastro.substr(2,3);
+    let codCadastro = "0"+chCadastro;
+    if(codCadastro.length == 6){
+        console.log('ok')
+    }   else{
+        alert('Chave precisa ter 5 caracteres')
+    }
 }
