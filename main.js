@@ -5,7 +5,7 @@ var dia = d.getDate();
 var somaAno = (ano - 1900)*365;
 var bisexto = (ano - 1900)/4;
 var somaMes = (mes)*30; 
-var result =(somaAno + somaMes + dia + bisexto)+ 2;
+var result =(somaAno + somaMes + dia + bisexto)+ 1;
 var codDia = result.toFixed(0);
 var codVariacao = document.getElementById('codDiario').innerHTML = "Codigo Diario:"+codDia;
 
