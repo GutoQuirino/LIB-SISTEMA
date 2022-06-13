@@ -20,7 +20,7 @@ function geraCodigo(){
         let cod2 = codigos.substr(3,3);//codigo de variaçao parte 2
         let chCliente1 =codCadastro.substr(0,3) ;
         let chCliente2 =codCadastro.substr(3,3) ;
-        let numRenovacao = '000'+cod2+chCliente1+cod2+chCliente2+'000';
+        let numRenovacao = '000'+cod2+chCliente1+cod1+chCliente2+'000';
         document.getElementById('codrenova').innerHTML = numRenovacao;
     }   else{
         alert('Chave precisa ter 5 caracteres')
