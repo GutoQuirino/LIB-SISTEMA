@@ -16,8 +16,8 @@ function geraCodigo(){
     if(codCadastro.length == 6){
         let resultado = parseInt(codDia) +30;
         let codigos = '0'+resultado.toString();
-        let cod1 = codigos.substr(0,3);//codigo de variaçao parte 1
-        let cod2 = codigos.substr(3,3);//codigo de variaçao parte 2
+        let cod1 = codigos.slice(0,3);//codigo de variaçao parte 1
+        let cod2 = codigos.slice(3);//codigo de variaçao parte 2
         let chCliente1 =codCadastro.substr(0,3) ;
         let chCliente2 =codCadastro.substr(3,3) ;
         let numRenovacao = '000'+cod2+chCliente1+cod1+chCliente2+'000';

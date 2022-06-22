@@ -1,7 +1,8 @@
 body{
     margin: 0;
     padding: 0;
-    background: rgba(214, 212, 212, 0.904);
+    background-image: url('/fundo.jpg');
+    
 }
 
 .tela{
@@ -16,6 +17,7 @@ body{
     position: absolute;
     transform: translate(-50%,-50%);
     justify-content:space-between;
+    opacity: 1;
 }
 @media(max-width:800px){
     .tela{
