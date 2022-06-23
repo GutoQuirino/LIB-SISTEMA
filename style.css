@@ -1,8 +1,8 @@
 body{
     margin: 0;
     padding: 0;
-    background-image: url('/fundo.jpg') no-repeat ;
-    
+    background-image: url('/fundo.jpg');
+    background-size: 100%;
 }
 
 .tela{
@@ -31,6 +31,7 @@ body{
     position: absolute;
     transform: translateX(-50%);
     left: 50%;
+    background: rgba(124, 117, 117, 0.459);
 }
 #ncadastro{
     width: 40%;
